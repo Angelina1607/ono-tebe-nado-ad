@@ -82,6 +82,33 @@
     padding-left: 613px;
 }
 
+.cover-content {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.cover p {
+    font-size: 22px;
+    line-height: 1.27;
+    text-transform: uppercase;
+}
+
+.cover-phrase {
+    font-size: 22px;
+    line-height: 1.27;
+    text-transform: uppercase;
+    display: flex;
+    min-width: 637px;
+    justify-content: space-between;
+}
+
+.cover .button {
+    border: 1px solid #fff;
+    padding: 11px 32px 11px 32px;
+    margin-left: 107px;
+}
+
 .lots {
     margin: 0 25px 120px 24px;
 }
