@@ -1,1 +1,101 @@
-/* место для вашего кода */
+.body {
+    font-family: Railway;
+    width: 1100px;
+}
+
+.header {
+    min-height: 293px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 50px;
+    font-size: 18px;
+    line-height: 1.35;
+}
+
+.menu {
+    display: flex;
+    margin-top: 132px;
+    gap: 14.5px;
+}
+
+.menu-list {
+    margin-left: 13px;
+    margin-right: 36.52px;
+    list-style: circle;
+    list-style-position: outside;
+    display: flex;
+    gap: 32px;
+}
+
+.menu-list li {
+    padding-left: 4px;
+}
+
+.link {
+    text-underline-offset: 4px;
+}
+
+.logo {
+    width: 148px;
+    height: 105px;
+    margin: 92px 184px 0 0;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    margin-top: 95px;
+}
+
+.cover {
+    min-height: 757px;
+    margin-bottom: 180px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/cover.jpg") center/cover;
+    color: #fff;
+    padding: 165px 50px 50px 50px;
+}
+
+.cover__header {
+    margin-bottom: 106px;
+    font-weight: bold;
+    font-size: 100px;
+    letter-spacing: 0.3em;
+    line-height: 1.15;
+}
+
+.cover__header span {
+    display: block;
+}
+
+.header-item-center {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 29px;
+}
+
+.header-item-right {
+    padding-top: 20px;
+    padding-left: 613px;
+}
+
+.lots {
+    margin: 0 25px 120px 25px;
+}
+
+.section-header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header-lots {
+    margin-left: 40px;
+}
+
+.about {
+    margin: 0 24px 180px 24px;
+}
+
+
+
