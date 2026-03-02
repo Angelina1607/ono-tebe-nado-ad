@@ -12,13 +12,13 @@
     line-height: 1.35;
 }
 
-.menu {
+.header__menu {
     display: flex;
     margin-top: 132px;
     gap: 14.5px;
 }
 
-.menu-list {
+.header__links-list {
     margin-left: 13px;
     margin-right: 36.52px;
     list-style: circle;
@@ -27,7 +27,7 @@
     gap: 32px;
 }
 
-.menu-list li {
+.header__links-list-item {
     padding-left: 4px;
 }
 
@@ -36,18 +36,19 @@
     text-underline-offset: 4px;
 }
 
-.logo {
+.header__logo-image {
     width: 148px;
     height: 105px;
     margin: 92px 184px 0 0;
 }
 
-.contacts {
+.address {
     display: flex;
     flex-direction: column;
     max-width: 240px;
     margin-top: 95px;
     padding: 1px 3.3px 1px 1px;
+    font-style: normal;
 }
 
 .cover {
@@ -82,13 +83,10 @@
     padding-left: 613px;
 }
 
-.cover-content {
+.description {
     display: flex;
     justify-content: end;
     align-items: center;
-}
-
-.cover p {
     font-size: 22px;
     line-height: 1.27;
     text-transform: uppercase;
@@ -103,10 +101,14 @@
     justify-content: space-between;
 }
 
-.cover .button {
+.button {
     border: 1px solid #fff;
+    background: none;
+    color: #fff;
     padding: 11px 32px 11px 32px;
     margin-left: 107px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .lots {
@@ -149,9 +151,6 @@
     font-size: 22px;
     font-weight: bold;
     text-transform: uppercase;
-}
-
-.card-header a{
     text-decoration: underline solid #fff 1px;
     text-underline-offset: 2.5px;
 }
@@ -216,6 +215,19 @@
     padding-right: 5px;
 }
 
+.menu-list {
+    margin-left: 13px;
+    margin-right: 36.52px;
+    list-style: circle;
+    list-style-position: outside;
+    display: flex;
+    gap: 32px;
+}
+
+.menu-list li {
+    padding-left: 4px;
+}
+
 .footer {
     display: flex;
     justify-content: flex-start;
@@ -223,7 +235,7 @@
     line-height: 1.35;
 }
 
-.footer .contacts {
+.footer .address {
     margin: 0 154px 0 50px;
     padding: 0;
     min-width: 264.57px;
@@ -239,6 +251,10 @@
     margin-right: 177.5px;
 }
 
+.footer .menu-main {
+    text-align: center
+}
+
 .footer .menu-list {
     flex-direction: column;
     align-items: center;
@@ -251,6 +267,8 @@
 .footer .menu-list li {
     padding: 0;
 }
+
+
 
 .socials {
     width: 240px;
