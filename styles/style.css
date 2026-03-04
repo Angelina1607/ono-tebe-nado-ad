@@ -19,7 +19,7 @@
 .header__link {
     text-decoration: underline solid #000 0.5px;
     text-underline-offset: 4px;
-    padding-left: 2.5px; 
+    padding-left: 2.5px;
 }
 
 .header__links-list-item_no-bullit {
@@ -168,7 +168,7 @@
     text-transform: uppercase;
     text-decoration: underline solid #fff 1px;
     text-underline-offset: 2.5px;
-    margin: 48px 40px 0 40px; 
+    margin: 48px 40px 0 40px;
 }
 
 .card__text {
@@ -252,7 +252,7 @@
 
 .footer__menu-link {
     text-decoration: underline solid #000 0.5px;
-    text-underline-offset: 4px; 
+    text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
@@ -270,6 +270,6 @@
     justify-content: space-between;
 }
 
-.footer__social-icon{
+.footer__social-icon {
     width: 48px;
 }
